@@ -1,3 +1,12 @@
+<%-- 
+    Document   : modificar
+    Created on : 01/01/2023, 23:03:52
+    Author     : devig
+--%>
+
+<%@page import="modelo.SociosDAO"%>
+<%@page import="modelo.Socios"%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -58,9 +67,8 @@
                         
                          </div>                        
                         <button type="submit" class="btn btn-primary" >Modificar </button>
-                        
                     </form>                
-                </div>
+            </div>
        </div>  
     </body>
 </html>

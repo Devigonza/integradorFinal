@@ -108,8 +108,5 @@ public class Socios
     public void setActivo(boolean activo) {
         this.activo = activo;
     }
-    
-   
-    
-     
+      
 }

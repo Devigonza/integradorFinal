@@ -46,14 +46,14 @@ public class SociosDAO
            while(rs.next())
            {
                int id=rs.getInt("idSocio");
-               String nombre=rs.getString("nombre");
-               String apellido=rs.getString("apellido");
-               String direccion=rs.getString("direccion");
-               String localidad=rs.getString("localidad");             
-               LocalDate fecha = rs.getDate("fnac").toLocalDate();
-               String email=rs.getString("email");
-               String telefono=rs.getString("telefono");
-               boolean activo=rs.getBoolean("activo");                 
+               String nombre=rs.getString("Nombre");
+               String apellido=rs.getString("Apellido");
+               String direccion=rs.getString("Direccion");
+               String localidad=rs.getString("Localidad");             
+               LocalDate fecha = rs.getDate("Fnac").toLocalDate();
+               String email=rs.getString("Email");
+               String telefono=rs.getString("Telefono");
+               boolean activo=rs.getBoolean("Activo");                 
                Socios s1=new Socios(id,nombre,apellido,direccion,localidad,fecha,email,telefono,activo);
                lista.add(s1);                
 

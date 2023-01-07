@@ -54,7 +54,7 @@ public class Conexion
         while(rs.next())
         {
             int id=rs.getInt("idSocio");           
-            boolean estado =rs.getBoolean("activo");
+            boolean estado =rs.getBoolean("Activo");
             System.out.println("ID:"+id+" Estado:"+estado);
         }
         
